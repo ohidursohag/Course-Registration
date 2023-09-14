@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "coverImage": "https://i.ibb.co/9vmyvkV/C-Programming.png",
+    "courseName": "Introduction to C Programming",
+    "creditHours": 1,
+    "coursePrice": 15000,
+    "description": "Master the fundamentals of C programming: syntax, data structures, and algorithms in this comprehensive course."
+  },
+  {
+    "id": 2,
+    "coverImage": "https://i.ibb.co/ZKWwXFP/Algorithms.png",
+    "courseName": "Introduction to Algorithms",
+    "creditHours": 2,
+    "coursePrice": 2500,
+    "description": "Discover the foundations of algorithms: efficiency, design, and problem-solving in this introductory course."
+  },
+  {
+    "id": 3,
+    "coverImage": "https://i.ibb.co/qJ2Zdyr/C-for-DSA.png",
+    "courseName": "Introduction to C++ for DSA",
+    "creditHours": 10,
+    "coursePrice": 10000,
+    "description": "Explore C++ for DSA: Master data structures & algorithms in this introductory course."
+  },
+  {
+    "id": 4,
+    "coverImage": "https://i.ibb.co/R6jMhyK/Data-Structures.png",
+    "courseName": "Basic Data Structures",
+    "creditHours": 5,
+    "coursePrice": 35000,
+    "description": "Master fundamental data structures: arrays, lists, and trees, in this foundational course."
+  },
+  {
+    "id": 5,
+    "coverImage": "https://i.ibb.co/FJzpHST/Pythone.png",
+    "courseName": "Introduction to OOP Python",
+    "creditHours": 5,
+    "coursePrice": 19000,
+    "description": "Learn Python's OOP principles: classes, objects, and inheritance in this foundational course."
+  },
+  {
+    "id": 6,
+    "coverImage": "https://i.ibb.co/gy2XFkF/Software-Engineering.png",
+    "courseName": "Software Engineering",
+    "creditHours": 2,
+    "coursePrice": 23000,
+    "description": "Master the art of software engineering: design, develop, and maintain robust, efficient software systems."
+  },
+  {
+    "id": 7,
+    "coverImage": "https://i.ibb.co/PGJ6vt5/AWS.png",
+    "courseName": "AWS, Cloud Computing",
+    "creditHours": 5,
+    "coursePrice": 35000,
+    "description": "Master AWS and cloud computing: Deploy, manage, and scale applications in this comprehensive course."
+  },
+  {
+    "id": 8,
+    "coverImage": "https://i.ibb.co/MPgxBcs/Database.png",
+    "courseName": "Database (MySQL)",
+    "creditHours": 5,
+    "coursePrice": 19000,
+    "description": "Learn MySQL database management, from data modeling to SQL queries, in our comprehensive course."
+  },
+  {
+    "id": 9,
+    "coverImage": "https://i.ibb.co/Mk4Wr0P/Problem-Solving.png",
+    "courseName": "Problem-Solving Part",
+    "creditHours": 2,
+    "coursePrice": 23000,
+    "description": "Master problem-solving skills: Learn to analyze, strategize, and innovate effectively in our comprehensive course."
+  }
+]
