@@ -21,7 +21,7 @@
     "courseName": "Introduction to C++ for DSA",
     "creditHours": 10,
     "coursePrice": 10000,
-    "description": "Explore C++ for DSA: Master data structures & algorithms in this introductory course."
+    "description": "Explore the foundations of C++ for DSA: Master data structures & algorithms in this introductory course."
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "courseName": "Basic Data Structures",
     "creditHours": 5,
     "coursePrice": 35000,
-    "description": "Master fundamental data structures: arrays, lists, and trees, in this foundational course."
+    "description": "Explore fundamental data structures like arrays, linked lists, and stacks in this foundational essential  course."
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "courseName": "Introduction to OOP Python",
     "creditHours": 5,
     "coursePrice": 19000,
-    "description": "Learn Python's OOP principles: classes, objects, and inheritance in this foundational course."
+    "description": "Discover the power of Object-Oriented Programming (OOP) in Python. Learn to design and create efficient, modular code."
   },
   {
     "id": 6,
