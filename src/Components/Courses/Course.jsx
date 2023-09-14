@@ -2,8 +2,7 @@
 import PropTypes from 'prop-types';
 import dollerSign from '../../Asset/icons/dollar-sign .svg';
 import bookIcon from '../../Asset/icons/ic_book.svg';
-const Course = ({ course }) => {
-   console.log(course);
+const Course = ({ course, handleSelectedCoursesData }) => {
    
    const { coverImage, courseName, description, coursePrice, creditHours } = course
    return (
@@ -24,13 +23,14 @@ const Course = ({ course }) => {
                <p className='text-[rgba(28,27,27,0.5)] text-lg font-semibold'>Credit : {creditHours}hr</p>
             </div>
          </div>
-         <button className='btn btn-secondary w-full bg-[#2F80ED] border-none normal-case text-xl text-white hover:bg-sky-400'>Select</button>
+         <button id={`course${course.id}`} onClick={() => handleSelectedCoursesData(course)} className='btn btn-secondary w-full  bg-[#2F80ED] border-none normal-case text-xl text-white hover:bg-sky-400'>Select</button>
       </div>
    );
 };
 
 Course.propTypes = {
-   course: PropTypes.object
+   course: PropTypes.object,
+   handleSelectedCoursesData: PropTypes.func.isRequired
 };
 
 export default Course;
