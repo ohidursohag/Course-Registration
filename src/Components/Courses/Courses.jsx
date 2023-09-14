@@ -1,10 +1,11 @@
 
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
+import Course from './Course';
 
 const Courses = props => {
    return (
       <div>
-         
+         <Course/>
       </div>
    );
 };
