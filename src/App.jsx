@@ -74,12 +74,12 @@ function App() {
   // console.log(selectdCourses);
 
   return (
-    <div className="container mx-auto px-2">
-      <h1 className='text-4xl font-bold text-center py-12'>Course Registration</h1>
+    <div className="container mx-auto px-3">
+      <h1 className='text-3xl font-bold text-center py-8'>Course Registration</h1>
 
-      <div className="grid grid-cols-4 gap-5 pb-14">
-        <Courses coursesData={coursesData} handleSelectedCoursesData={handleSelectedCoursesData} />
+      <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 sm:gap-3 xl:gap-6 pb-10">
         <SelectedCourses selectedCourses={selectedCourses} totalPrice={totalPrice} totalCreditHours={totalCreditHours} remainingCreditHours={remainingCreditHours} />
+        <Courses coursesData={coursesData} handleSelectedCoursesData={handleSelectedCoursesData} />
       </div>
     </div>
   )

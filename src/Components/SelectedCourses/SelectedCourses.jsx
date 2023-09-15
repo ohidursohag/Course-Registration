@@ -15,7 +15,7 @@ const SelectedCourses = ({ selectedCourses, totalPrice, totalCreditHours, remain
 
    // console.log(selectedCourses);
    return (
-      <div className='w-[350px] px-6 bg-white rounded-xl h-max'>
+      <div className='w-[350px] sm:w-[300px] md:w-[360px] lg:w-[320px] xl:w-[390px] 2xl:w-[360px] mx-auto mb-5 px-6 bg-white rounded-xl h-max sm:order-2 sm:fixed sm:right-2 md:right-3 xl:right-10 2xl:right-[10%]'>
          <h4 className='text-lg font-bold text-[#2F80ED] border-b-2 py-4'>Credit Hour Remaining {remainingCreditHours} hr</h4>
          <div className='border-b-2 py-4'>
             <h2 className='text-xl font-bold mb-5'>Course Name</h2>
