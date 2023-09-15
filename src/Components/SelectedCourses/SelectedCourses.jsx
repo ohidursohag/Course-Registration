@@ -27,7 +27,7 @@ const SelectedCourses = ({ selectedCourses, totalPrice, totalCreditHours, remain
             </div>
          </div>
          <h3 className='border-b-2 py-4 font-bold'>Total Credit Hour : <span className='text-[#1C1B1B99]'>{totalCreditHours}</span></h3>
-         <h3 className=' py-4 font-bold'>Total Price : <span className='text-[#1C1B1B99]'>{totalPrice}</span>  USD</h3>
+         <h3 className=' py-4 font-bold'>Total Price : <span className='text-[#1C1B1B99]'>{totalPrice} USD</span></h3>
       </div>
    );
 };
