@@ -2,6 +2,8 @@ import { useState } from "react"
 import Courses from "./Components/Courses/Courses"
 import SelectedCourses from "./Components/SelectedCourses/SelectedCourses"
 import { useEffect } from "react"
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -33,10 +35,18 @@ function App() {
     if (!selectedCourses.includes(course)) {
       if (totalCredit > 20) {
         if (selectBtn.textContent === 'Selected') {
-          alert('❌ Course Alredy Selected')
+          toast("❌ Course Alredy Selected ❌", {
+            position: toast.POSITION.TOP_CENTER,
+            autoClose: 1000,
+
+          })
           return
         } else {
-          alert("❌ Total credit hours can't be more than 20hr")
+          toast("❌ Total credit can't be Over 20hr ❌", {
+            position: toast.POSITION.TOP_CENTER,
+            autoClose: 1000,
+
+          })
           return
         }
         
@@ -53,7 +63,11 @@ function App() {
       selectBtn.classList.add('hover:bg-[#00D043]')
       selectBtn.classList.add('bg-[#00D043]')
     } else {
-      alert('❌ Course Alredy Selected')
+      toast("❌ Course Alredy Selected ❌", {
+        position: toast.POSITION.TOP_CENTER,
+        autoClose: 1000,
+      })
+
     }
 
   }
