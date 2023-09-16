@@ -11,9 +11,6 @@ const SelectedItems = ({ selectedCourse, index }) => {
 
 const SelectedCourses = ({ selectedCourses, totalPrice, totalCreditHours, remainingCreditHours }) => {
 
-  
-
-   // console.log(selectedCourses);
    return (
       <div className='w-[350px] sm:w-[300px] md:w-[360px] lg:w-[320px] xl:w-[390px] 2xl:w-[360px] mx-auto mb-5 px-6 bg-white rounded-xl h-max sm:order-2 sm:fixed sm:right-2 md:right-3 xl:right-10 2xl:right-[10%]'>
          <h4 className='text-lg font-bold text-[#2F80ED] border-b-2 py-4'>Credit Hour Remaining {remainingCreditHours} hr</h4>
@@ -22,8 +19,7 @@ const SelectedCourses = ({ selectedCourses, totalPrice, totalCreditHours, remain
             <div>
                {
                   selectedCourses.map((selectedCourse, index) => <SelectedItems key={index} index={index} selectedCourse={selectedCourse}/>)
-               }
-               
+               }               
             </div>
          </div>
          <h3 className='border-b-2 py-4 font-bold'>Total Credit Hour : <span className='text-[#1C1B1B99]'>{totalCreditHours}</span></h3>
